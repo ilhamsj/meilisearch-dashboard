@@ -73,3 +73,113 @@ Configure each index visually:
 ```bash
 git clone https://github.com/YOUR_USERNAME/meiliboard.git
 cd meiliboard
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create `.env.local`
+
+```env
+NEXT_PUBLIC_MEILI_URL=http://localhost:7700
+NEXT_PUBLIC_MEILI_API_KEY=MASTER_OR_ADMIN_KEY
+```
+
+> Only stored locally. Never uploaded.
+
+### 4. Run the app
+
+```bash
+npm run dev
+```
+
+Go to:
+
+```
+http://localhost:3000
+```
+
+Enjoy your **Meilisearch Dashboard** 🎉
+
+---
+
+## 📦 Deployment
+
+Deploy anywhere:
+
+* Vercel
+* Netlify
+* Docker
+* Fly.io
+* Render
+
+Just set:
+
+```
+NEXT_PUBLIC_MEILI_URL
+NEXT_PUBLIC_MEILI_API_KEY
+```
+
+---
+
+## 🗺 Roadmap
+
+* [ ] Query logs viewer
+* [ ] Dark mode
+* [ ] CSV export
+* [ ] Import Meilisearch snapshots
+* [ ] Multi-host support
+* [ ] Plugin system
+* [ ] Webhook tester
+* [ ] Custom dashboards (widgets)
+
+Have ideas? Open an issue!
+
+---
+
+## 🤝 Contributing
+
+Pull Requests are welcome! ❤️
+If you want to add a feature, improve UI, fix bugs, or refactor — jump in.
+
+### Steps
+
+1. Fork the repo
+2. Create feature branch
+3. Commit changes
+4. Open PR
+
+We are friendly — don’t hesitate to ask for help.
+
+---
+
+## ⭐ Support the Project
+
+If this dashboard helps you, please:
+
+* ⭐ Star the repo
+* 🐦 Share it on X/Twitter
+* 🧩 Contribute a feature
+* 💬 Give suggestions
+
+Your support keeps this project alive.
+
+---
+
+## 📄 License
+
+MIT License — do whatever you want, just keep the copyright.
+
+---
+
+## ❤️ Built Because the Community Needed It
+
+Meilisearch is a great search engine —
+but for years, the community has had **no proper dashboard** for self-hosting.
+
+This project exists to fix that.
+
+> Free, open-source, and made for developers.
